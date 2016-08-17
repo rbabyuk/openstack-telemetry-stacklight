@@ -1,16 +1,4 @@
-/*{"alarm_history_time_to_live"=>"604800",
- "event_time_to_live"=>"604800",
- "metering_time_to_live"=>"604800",
- "http_timeout"=>"600",
- "notification_driver"=>"<SERVICE DEFAULT>",
- "db_password"=>"aKzoNXhcN4RKCDQjPIpFbGjY",
- "enabled"=>false,
- "metering_secret"=>"BOmlJkadWmx8g0RUwAiJEyfO",
- "user_password"=>"7BpBEHfBS6L75staKSgxZ0RF"}
-*/
-
-
-notice('fuel-plugin-telemetry: hiera.pp')
+notice('MODULAR: fuel-plugin-telemetry: hiera.pp')
 
 $fuel_version = 0 + hiera('fuel_version')
 
